@@ -13,7 +13,7 @@ Bu React.js uygulaması, kullanıcıların rastgele renkler oluşturmasını ve 
 - **Renk Ekleme**: Kullanıcılar "+" simgesine tıklayarak yeni renkler ekleyebilirler.
 - **Kullanıcı Dostu Arayüz**: Renkleri kolayca ekleyip silebilir, kilitleyebilirsiniz.
 
-### ** Kullanılan Teknolojiler**
+### **Kullanılan Teknolojiler**
 - React.js
 - CSS
 - JavaScript
@@ -47,6 +47,7 @@ This React.js app allows users to generate random colors and customize those col
 - **Delete Colors**: Colors can be deleted by clicking the "X" icon, but only for unlocked colors. The first and last colors cannot be deleted.
 - **Add Colors**: Users can add new colors by clicking the "+" icon.
 - **User-Friendly Interface**: Easily add, remove, and lock colors.
+- 
 ### **Technologies Used**
 - React.js
 - CSS
