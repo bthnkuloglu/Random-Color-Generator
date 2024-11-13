@@ -33,7 +33,11 @@ Bu React.js uygulaması, kullanıcıların rastgele renkler oluşturmasını ve 
    - `npm install`
    - `npm start`
 
----
+
+### Demo 
+**https://randomcolorgen-bk.netlify.app/**
+
+--- 
 
 ## **English** 🇬🇧
 
@@ -47,7 +51,8 @@ This React.js app allows users to generate random colors and customize those col
 - **Delete Colors**: Colors can be deleted by clicking the "X" icon, but only for unlocked colors. The first and last colors cannot be deleted.
 - **Add Colors**: Users can add new colors by clicking the "+" icon.
 - **User-Friendly Interface**: Easily add, remove, and lock colors.
-- 
+
+
 ### **Technologies Used**
 - React.js
 - CSS
@@ -67,3 +72,7 @@ This React.js app allows users to generate random colors and customize those col
    - `cd random-color-generator`
    - `npm install`
    - `npm start`
+     
+--- 
+### Live Demo 
+**https://randomcolorgen-bk.netlify.app/**
