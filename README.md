@@ -1,4 +1,4 @@
-# Random Color Generator Uygulaması | Random Color Generator App
+# Random Color Generator App
 
 ## **Türkçe** 🇹🇷
 
