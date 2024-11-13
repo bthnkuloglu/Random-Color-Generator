@@ -78,6 +78,7 @@
 .color-box-container:hover .remove-color {
   opacity: 1;
 }
+/* ADD COLOR */ 
 
 .add-color {
   display: flex;
@@ -98,7 +99,6 @@
 
 .img {
   width: 36px;
-  /* Görüntü boyutunu ayarlayın */
   height: 36px;
 }
 
@@ -116,6 +116,8 @@
   justify-content: center;
   align-items: center;
 }
+
+/* PALETTE UPDATE BUTTON */ 
 
 .bottom-btn {
   position: fixed;
@@ -138,14 +140,10 @@
   background-color: #111;
 }
 
-.responsive {
-  opacity: 0;
-}
-
 /* 
 
 
-Responsive
+RESPONSIVE DESIGN START 
 
 
 */
@@ -244,3 +242,5 @@ Responsive
 
   /* Header Container End */
 }
+
+/* RESPONSIVE DESIGN END */ 

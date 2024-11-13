@@ -6,7 +6,7 @@ import remove from './assets/remove.png';
 import lock from './assets/lock.png';
 
 function App() {
-  // Rastgele renk üretme fonksiyonu
+  //Random color generation function
   const generateRandomColor = () => {
     const r = Math.floor(Math.random() * 256);
     const g = Math.floor(Math.random() * 256);
@@ -19,7 +19,7 @@ function App() {
     return { hex, rgba };
   };
 
-  // `createInitialColors` fonksiyonunu `useCallback` ile tanımlıyoruz
+// We define the `createInitialColors` function with `useCallback`
   const createInitialColors = useCallback((numColors) => {
     return Array.from({ length: numColors }, () => ({
       ...generateRandomColor(),
@@ -44,7 +44,7 @@ function App() {
     };
   }, [createInitialColors]);
 
-  // Yeni renk ekleme fonksiyonu
+ // Add new color function
   const addColor = (index) => {
     const isMobile = window.innerWidth <= 768;
     if (isMobile && colors.length >= 5) {
@@ -65,7 +65,7 @@ function App() {
     setColors(updatedColors);
   };
 
-  // Renk silme fonksiyonu
+// Color delete function
   const removeColor = (index) => {
     if (index === 0 || index === colors.length - 1) {
       return;
@@ -80,7 +80,7 @@ function App() {
     setColors(updatedColors);
   };
 
-  // Renk kilitleme fonksiyonu
+// Color lock function
   const toggleLock = (index) => {
     const updatedColors = colors.map((color, i) => {
       if (i === index) {
@@ -90,8 +90,7 @@ function App() {
     });
     setColors(updatedColors);
   };
-
-  // Boşluk tuşuyla rastgele renk oluşturma
+// Generate random color with spacebar
   const handleKeyPress = useCallback((e) => {
     if (e.key === " ") {
       const updatedColors = colors.map((color) =>
@@ -108,7 +107,7 @@ function App() {
     };
   }, [handleKeyPress]);
 
-  // Renk paletini güncelleme fonksiyonu
+// Function to update the color palette
   const updatePalette = () => {
     const updatedColors = colors.map((color) =>
       color.locked ? color : { ...generateRandomColor(), locked: false }
@@ -152,7 +151,7 @@ function App() {
               </div>
             )}
 
-            {/* RGBA değeri gösterimi */}
+            {/* RGBA value display */}
             <span className="color-rgba">{color.rgba}</span>
           </div>
         ))}

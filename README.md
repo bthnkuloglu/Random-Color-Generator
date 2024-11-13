@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Random Color Generator Uygulaması | Random Color Generator App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## **Türkçe** 🇹🇷
 
-## Available Scripts
+Bu React.js uygulaması, kullanıcıların rastgele renkler oluşturmasını ve bu renkleri özelleştirmesini sağlar. Uygulama ekran boyutuna göre renk sayısını otomatik olarak ayarlar ve her tıklamada yeni renkler üretir. Ayrıca, renklerin RGBA değerlerini ve Hex kodlarını da görüntüleyebilirsiniz.
 
-In the project directory, you can run:
+### **Özellikler**
+- **Rastgele Renk Üretme**: Kullanıcılar her tıklamada yeni bir renk oluşturabilirler.
+- **Renk Kilitleme**: Seçilen renkleri "kilitleyerek" sabitleyebilir ve değiştirilmesini engelleyebilirsiniz.
+- **Ekran Boyutuna Göre Renk Sayısı**: Mobil cihazlarda maksimum 5 renk, masaüstü cihazlarda ise 3 renk ile başlar.
+- **Hex ve RGBA Değerleri**: Her renk için Hex ve RGBA değerleri görüntülenebilir.
+- **Renk Silme**: Renkler, yalnızca kilitli olmayan renkler için silinebilir. İlk ve son renkler silinemez.
+- **Renk Ekleme**: Kullanıcılar "+" simgesine tıklayarak yeni renkler ekleyebilirler.
+- **Kullanıcı Dostu Arayüz**: Renkleri kolayca ekleyip silebilir, kilitleyebilirsiniz.
 
-### `npm start`
+### ** Kullanılan Teknolojiler**
+- React.js
+- CSS
+- JavaScript
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### **Nasıl Kullanılır**
+1. Uygulamayı bilgisayarınızda veya mobil cihazınızda açın.
+2. Renkleri görmek için renk kutularına tıklayın.
+3. "Kilitle" simgesine tıklayarak renkleri kilitleyin.
+4. Yeni renkler eklemek için "+" simgesine tıklayın.
+5. Renkleri silmek için "X" simgesine tıklayın (ilk ve son renkler hariç).
+6. Renk paletinizi güncellemek için "Renk Paletini Güncelle" butonuna tıklayın.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### **Kurulum**
+1. Bu projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
+   - `git clone https://github.com/bthnkuloglu/Random-Color-Generator.git`
+   - `cd random-color-generator`
+   - `npm install`
+   - `npm start`
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## **English** 🇬🇧
 
-### `npm run build`
+This React.js app allows users to generate random colors and customize those colors. The app automatically adjusts the number of colors based on screen size, and generates new colors with each click. It also displays the RGBA values and Hex codes of the colors.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **Features**
+- **Random Color Generation**: Users can generate a new color with each click.
+- **Lock Colors**: Lock selected colors to keep them from changing.
+- **Number of Colors Based on Screen Size**: 5 colors for mobile and 3 colors for desktop.
+- **Hex and RGBA Values**: Displays both Hex and RGBA values for each color.
+- **Delete Colors**: Colors can be deleted by clicking the "X" icon, but only for unlocked colors. The first and last colors cannot be deleted.
+- **Add Colors**: Users can add new colors by clicking the "+" icon.
+- **User-Friendly Interface**: Easily add, remove, and lock colors.
+### **Technologies Used**
+- React.js
+- CSS
+- JavaScript
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **How to Use**
+1. Open the app on your computer or mobile device.
+2. Click on the color boxes to view different colors.
+3. Lock the colors by clicking on the "lock" icon.
+4. Add new colors by clicking the "+" icon.
+5. Delete colors by clicking the "X" icon (first and last colors are not deletable).
+6. Update your color palette by clicking the "Update Palette" button.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### **Installation**
+1. To run this project on your local machine, follow these steps:
+   - `git clone https://github.com/bthnkuloglu/Random-Color-Generator.git`
+   - `cd random-color-generator`
+   - `npm install`
+   - `npm start`
